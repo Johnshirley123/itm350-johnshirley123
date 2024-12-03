@@ -1,0 +1,13 @@
+region                 = "us-east-1"
+vpc_cidr               = "10.0.0.0/16"
+public_subnet_a_cidr   = "10.0.1.0/24"
+public_subnet_b_cidr   = "10.0.2.0/24"
+private_subnet_a_cidr  = "10.0.3.0/24"
+private_subnet_b_cidr  = "10.0.4.0/24"
+public_subnet_a_az     = "us-east-1a"
+public_subnet_b_az     = "us-east-1b"
+private_subnet_a_az    = "us-east-1a"
+private_subnet_b_az    = "us-east-1b"
+ami_id                 = "ami-xxxxxxx"  # Provide the appropriate AMI ID
+instance_type          = "t2.micro"
+key_pair_name          = "your-ssh-key"
